@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-''' Task 12 '''
+'''Task 12'''
 
 from pymongo import MongoClient
 
 def print_nginx_stats():
-    ''' Task 12 '''
+    '''Task 12'''
     client = MongoClient()
     collection = client.logs.nginx
 
